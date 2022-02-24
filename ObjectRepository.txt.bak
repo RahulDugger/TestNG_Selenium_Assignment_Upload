@@ -1,0 +1,38 @@
+#Objects in Create Product
+	Object Name				X-Path																	CSS Selector
+
+	Username				//*[@id="login"]
+	Password				//*[@id="password"]
+	Button   				/html/body/div[1]/main/div/div/div/form/div[3]/button
+	Inventory				/html/body/div[1]/div/div[2]/div/a[2]/div[1]
+	Product menu			/html/body/header/nav/div[1]/div[2]/button/span							.o-dropdown--menu > a:nth-child(1)
+	Products submenu		/html/body/header/nav/div[1]/div[2]/div/a[1]							.o-dropdown--menu > a:nth-child(1)
+	
+	Create button			/html/body/div[1]/div/div[1]/div[2]/div[1]/div/div/button				button.btn-primary:nth-child(1) Or	button.btn-primary:nth-child(3)
+	
+	Product Name			//*[@id="o_field_input_11"]   											#o_field_input_11  
+	Unit of product			//*[@id="o_field_input_17"]
+	
+	Update Quantity tab		/html/body/div[1]/div/div[2]/div/div[1]/div[1]/div/button[2]/span		.o_statusbar_buttons > button:nth-child(2) > span:nth-child(1)
+	Counted quantity		/html/body/div[1]/div/div[2]/div/div[1]/table/tbody/tr[1]/td[7] 		input.o_field_float
+	Save Button				/html/body/div[1]/div/div[1]/div[2]/div[1]/div/div/div[2]/button[1] 	.o_form_button_save	
+	Save Button after update	/html/body/div[1]/div/div[1]/div[2]/div[1]/div/div/button[1]		button.btn-primary:nth-child(1)
+	Location identifier			/html/body/div[1]/div/div[2]/div/div[1]/table/thead/tr/th[2]
+
+	Create button again																					button.btn-primary:nth-child(4)	
+
+	Edit Product			/html/body/div[1]/div/div[1]/div[2]/div[1]/div[1]/div/div[1]/button[1]	.o_form_button_edit	
+	
+	Save button 																					button.btn-primary:nth-child(1)
+	
+
+#Objects in Create Manfacturing Order	
+	Object Name				X-Path																	CSS Selector
+	Manufacturing icon		/html/body/div[1]/div/div[2]/div/a[3]/div[1]																		#result_app_2 > div:nth-child(1)
+	Create button			/html/body/div[1]/div/div[1]/div[2]/div[1]/div/div/button[3]			button.btn-primary:nth-child(3)
+	Confirm create box 		/html/body/div[2]/div[5]/div/div/div/footer/button[1]					.modal-footer > button:nth-child(1)
+	Confirm Button			/html/body/div[1]/div/div[2]/div/div[1]/div[1]/div[1]/button[5]/span	button.btn-primary:nth-child(5) > span:nth-child(1)
+	Product Name																					//*[@id="o_field_input_193"]
+	Mark As Done			/html/body/div[1]/div/div[2]/div/div[1]/div[1]/div[1]/button[4]/span
+	Quantity																						//*[@id='o_field_input_133']
+	
